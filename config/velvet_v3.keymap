@@ -5,6 +5,26 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        to_dvorak {
+            bindings = <&to 8>;
+            key-positions = <4 5>;
+            layers = <0>;
+        };
+
+        to_base {
+            bindings = <&to 0>;
+            key-positions = <6 7>;
+        };
+
+        to_ru {
+            bindings = <&to 7>;
+            key-positions = <29 28>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -85,12 +105,12 @@
             display-name = "User2";
         };
 
-        User3 {
+        russian {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE  &kp RU_CYRILLIC_U  &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans               &trans             &trans              &trans                                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans               &trans             &trans              &trans                                &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans               &trans             &trans              &trans              &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "User3";
