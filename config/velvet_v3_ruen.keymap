@@ -101,7 +101,7 @@
 
         sym_en {
             bindings = <
-&kp AMPERSAND  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LPAR  &kp EQUAL                    &kp ASTRK  &kp RPAR  &kp PLUS   &kp RIGHT_BRACKET  &kp EXCLAMATION  &trans
+&kp AMPERSAND  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LPAR  &kp EQUAL                    &kp ASTRK  &kp RPAR  &kp PLUS   &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp SLASH
 &trans         &kp BSLH          &kp LPAR        &kp MINUS        &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC           &kp HASH         &kp QUESTION
 &trans         &kp COMMA         &kp STAR        &kp COLON        &kp FSLH  &kp DLLR                     &kp AT     &kp PIPE  &kp TILDE  &kp AMPS           &kp DOT          &trans
                                  &trans          &trans           &trans    &mo 5      &trans    &trans  &trans     &trans    &kp LBKT   &kp RBKT
