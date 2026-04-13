@@ -57,13 +57,6 @@
             tap-ms = <30>;
             wait-ms = <0>;
         };
-
-        en: en {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "EN";
-        };
     };
 
     keymap {
