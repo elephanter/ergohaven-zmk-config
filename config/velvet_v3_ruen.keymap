@@ -128,8 +128,8 @@
             display-name = "Sym ru";
             bindings = <
 &en AMPS   &en LBKT      &en LBRC  &en RBRC      &en LPAR     &en EQUAL                   &en STAR   &en RPAR  &en PLUS     &en RBKT  &en EXCL    &en HASH
-&en GRAVE  &en BSLH      &kp LPAR  &kp MINUS     &kp RPAR     &kp PLUS                    &kp PRCNT  &en LBRC  &kp RU_SEMI  &en RBRC  &en HASH    &en EQUAL
-&trans     &kp RU_COMMA  &en STAR  &en COLON     &kp RU_FSLH  &en DLLR                    &en AT     &en PIPE  &en TILDE    &en AMPS  &kp RU_DOT  &trans
+&en GRAVE  &en BSLH      &kp LPAR  &kp MINUS     &kp RPAR     &kp PLUS                    &en PRCNT  &en LBRC  &en SEMI     &en RBRC  &en HASH    &en EQUAL
+&trans     &en COMMA     &en STAR  &en COLON     &en FSLH     &en DLLR                    &en AT     &en PIPE  &en TILDE    &en AMPS  &kp RU_DOT  &trans
                          &trans    &trans        &trans       &mo 5     &trans    &trans  &trans     &trans    &en LBKT     &en BSLH
             >;
         };
