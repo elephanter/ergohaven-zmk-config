@@ -116,7 +116,7 @@
         sym_en {
             bindings = <
 &kp AMPS   &kp LBKT   &kp LBRC  &kp RBRC   &kp LPAR  &kp EQUAL                    &kp STAR   &kp RPAR  &kp PLUS   &kp RBKT       &kp EXCL  &kp HASH
-&kp GRAVE  &kp RBKT   &kp LPAR  &kp COLON  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC       &kp HASH  &kp EQUAL
+&kp GRAVE  &kp RBKT   &kp LPAR  &kp COLON  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC       &kp HASH  &kp CARET
 &trans     &kp COMMA  &kp STAR  &kp TILDE  &kp FSLH  &kp DLLR                     &kp AT     &kp PIPE  &kp MINUS  &kp AMPS       &kp DOT   &trans
                       &trans    &trans     &trans    &mo 5      &trans    &trans  &trans     &trans    &kp FSLH   &kp BACKSLASH
             >;
@@ -128,7 +128,7 @@
             display-name = "Sym ru";
             bindings = <
 &en AMPS   &en LBKT   &en LBRC  &en RBRC   &en LPAR  &en EQUAL                    &en STAR   &en RPAR  &en PLUS   &en RBKT  &en EXCL  &en HASH
-&en GRAVE  &en RBKT   &kp LPAR  &kp COLON  &kp RPAR  &kp PLUS                     &en PRCNT  &en LBRC  &en SEMI   &en RBRC  &en HASH  &en EQUAL
+&en GRAVE  &en RBKT   &kp LPAR  &kp COLON  &kp RPAR  &kp PLUS                     &en PRCNT  &en LBRC  &en SEMI   &en RBRC  &en HASH  &en CARET
 &trans     &en COMMA  &en STAR  &en TILDE  &en FSLH  &en DLLR                     &en AT     &en PIPE  &en MINUS  &en AMPS  &en DOT   &trans
                       &trans    &trans     &trans    &mo 5      &trans    &trans  &trans     &trans    &en FSLH   &en BSLH
             >;
